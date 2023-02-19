@@ -1,21 +1,25 @@
 body {
     margin: 0;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background: #141414;
     overflow-x: hidden;
     font-family: 'Hanken Grotesk';
 }
 
 section {
+    display: flex;
     z-index: 1;
-    padding: 0 150px;
     width: 100%;
     max-width: 1440px;
-    margin-top: -50px;
 }
 
 /* elements pour degrader orange*/
 .elipse1 {
+    z-index: -1;
     position: absolute;
     width: 1882px;
     height: 1882px;
@@ -25,6 +29,7 @@ section {
 }
 
 .elipse2 {
+    z-index: -1;
     position: absolute;
     width: 1108px;
     height: 2116px;
@@ -35,13 +40,13 @@ section {
 }
 /* header (navbar) */
 .navbar {
+    width: 100%;
     font-family: 'Hanken Grotesk';
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    padding: 50px ;
-    gap: 647px;
-    position: relative;
+    padding: 50px 150px;
 }
 
 .navbar a {
@@ -66,8 +71,6 @@ section {
 }
 
 .elements a{
-    width: 64px;
-    height: 23px;
     text-decoration: none;
     font-family: 'Hanken Grotesk';
     font-style: normal;
@@ -80,8 +83,11 @@ section {
 }
 /* titre en arrière plan */
 .titre{
-    width: 1440px;
-    height: 173px;
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    width: 100%;
+    height: 183px;
     left: 3px;
     top: 191px;
 }
@@ -89,7 +95,7 @@ section {
 .titre h1 {
     white-space: nowrap;
     font-family: 'oswald';
-    font-size: 120px;
+    font-size: 7.5rem;
     line-height: 140px;
     letter-spacing: -6px;
     text-transform: uppercase;
@@ -104,6 +110,7 @@ section {
     gap: 24px;
     width: 100%;
     align-items: stretch;
+    padding: 0 150px;
 }
 /* container pour les deux premières cartes (photos) (avatar et accroche) */
 .smallcontainer {
