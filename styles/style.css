@@ -230,6 +230,7 @@ p {
 
 .techcontainer {
     display: flex;
+    flex-wrap: wrap;
     align-items: stretch;
     width: 100%;
     max-width: 1440px;
@@ -243,6 +244,8 @@ p {
     justify-content: center;
     align-items: center;
     width: 100%;
+    max-width: 176.5px;
+
     border-radius: 8px;
     padding: 16px;
     gap: 16px;
