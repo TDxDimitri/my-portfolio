@@ -272,3 +272,54 @@ p {
     opacity: 0.3;
 
 }
+
+ /* Container mes travaux */
+
+ .workcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+    max-width: 1440px;
+    gap: 24px;
+}
+
+.smllcard img {
+
+    border-radius: 3px;
+    opacity: 1;
+}
+/* footer */
+footer {
+    display: flex;
+    padding: 100px 0;
+    width: 100%;
+    max-width: 1440px;
+   
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #FEF3E5;
+}
+
+footer button{
+    gap: 48px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #FF950A;
+    color: #FF950A;
+    background-color: #141414;
+    border-radius: 100px;
+    margin-left: 40px;
+
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+}
+
