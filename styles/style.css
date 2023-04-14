@@ -428,7 +428,7 @@ footer {
     font-size: 14px;
   }
   
-@media (max-width:420px){
+@media (max-width:500px){
     .navbar {
         padding-top: 40px;
         padding-left: 5px;
@@ -502,7 +502,6 @@ footer {
         flex-wrap: wrap;
         flex-direction: column;
         padding: 5px;
-        width: 165px;
     }
     .progress{
         width: 120PX;
@@ -516,8 +515,5 @@ footer {
     }
     .workcontainer{
         height: 150px;
-    }
-    a {
-        max-height: 150px;
     }
 }
