@@ -428,4 +428,96 @@ footer {
     font-size: 14px;
   }
   
+@media (max-width:420px){
+    .navbar {
+        padding-top: 40px;
+        padding-left: 5px;
+        padding-right: 5px;
+        flex-direction: column;
+    }
+    .elements{
+        padding-top: 20px;
+        gap: 100px;
+    }
+    .me {
+        font-size: 1em;
+    }
+    .contact {
+        font-size: 0.5rem;
+    }
+    .elipse1,.elipse2{
+        display: none;
+    }
+    .titre {
+        display: none;
+    }
+    /* container présentation */
+    .container{
+        margin-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 15px;
+    }
+    .smallcontainer{
+        height: 170px;
+        gap: 15x;
+    }
 
+    .hello {
+        padding: 10px;
+    }
+    .hello img {
+        width: 50px;
+    }
+    .hello p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center
+        
+    }
+    .accroche{
+        font-size: 0.7rem;
+        line-height: 16px;
+    }
+    .location {
+        font-size: 0.6rem;
+    }
+
+    .aPropos {
+        flex-direction: column;
+    }
+    .aPropos p {
+        margin: 0;
+        padding: 0;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    .techcontainer {
+        margin: 0%;
+    }
+    .smllcard {
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 5px;
+        width: 165px;
+    }
+    .progress{
+        width: 120PX;
+    }
+    .point{
+        width: 15px;
+    }
+    .smllcard p {
+        display: none;
+
+    }
+    .workcontainer{
+        height: 150px;
+    }
+    a {
+        max-height: 150px;
+    }
+}
